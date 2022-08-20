@@ -18,13 +18,13 @@
     "nodeLabel": "Personas"
   },
   "features": {
-    "search": true,
-    "groupSelectorAttribute": false,
+    "search": false,
+    "groupSelectorAttribute": "name",
     "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "name"
   },
   "sigma": {
     "drawingProperties": {
