@@ -18,8 +18,8 @@
     "nodeLabel": "Personas"
   },
   "features": {
-    "search": false,
-    "groupSelectorAttribute": "name",
+    "search": true,
+    "groupSelectorAttribute": "Label",
     "hoverBehavior": "default"
   },
   "informationPanel": {
