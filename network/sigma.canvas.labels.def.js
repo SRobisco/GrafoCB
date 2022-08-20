@@ -25,7 +25,9 @@
     if (!node.label || typeof node.label !== 'string')
       return;
 
-    fontSize = 32;
+    fontSize = (settings('labelSize') === 'fixed') ?
+      settings('defaultLabelSize') :
+      settings('labelSizeRatio') * size;
 
     context.font = (settings('fontStyle') ? settings('fontStyle') + ' ' : '') +
       fontSize + 'px ' + settings('font');
